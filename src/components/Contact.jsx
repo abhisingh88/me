@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className="container">
             <h2 className="text-center my-3">Contact me</h2>
-            <div className="row align-items-center" >
+            <div className="row align-items-center mx-3" >
                 <div className="contact_info">
                     <div className="info_item">
                         <i className="fa fa-graduation-cap"></i>
@@ -14,7 +14,7 @@ function Contact() {
                     </div>
                     <div className="info_item">
                         <i className="fa fa-phone"></i>
-                        <h6>(+91) 6388715810</h6>
+                        <h6>+91 6388715810</h6>
                         <p>Mon to Sat 9am to 7pm</p>
                     </div>
                 </div>

@@ -11,6 +11,7 @@ import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Work from './components/Work'
 
 function App() {
   return (
@@ -18,16 +19,19 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/me/">
             <Home />
           </Route>
-          <Route exact path="/projects">
+          <Route exact path="/me/projects">
             <Projects />
           </Route>
-          <Route exact path="/resume">
+          <Route exact path="/me/resume">
             <Resume />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/me/experience">
+            <Work />
+          </Route>
+          <Route exact path="/me/contact">
             <Contact />
           </Route>
         </Switch>
