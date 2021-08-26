@@ -12,7 +12,6 @@ import Chat from './images/chat.jpg'
 import Forum1 from './images/forum-1.jpg'
 import Forum2 from './images/forum-2.jpg'
 import Forum3 from './images/forum-3.jpg'
-import Forum4 from './images/forum-4.jpg'
 
 function Projects() {
     let Alt = "Project Image";

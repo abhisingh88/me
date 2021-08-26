@@ -10,10 +10,10 @@ import Sql from './images/sql.jpg';
 import Flask from './images/flask.png';
 import Django from './images/django.png';
 import Node from './images/node.png';
+import { NavLink } from 'react-router-dom'
 import Numpy from './images/numpy.png';
 import Pandas from './images/pandas.png';
 import Scikit from './images/scikit.png';
-import { NavLink } from 'react-router-dom'
 import './Home.css'
 
 
@@ -59,9 +59,9 @@ function Home() {
                                 <a href="https://github.com/abhisingh88">
                                     <i className=" mx-1 fa fa-github" style={{ height: "40px", width: "50px" }}></i>
                                 </a>
-                                <a href="">
+                                <NavLink to="">
                                     <i className=" mx-1 fa fa-instagram" style={{ height: "40px", width: "50px" }}></i>
-                                </a>
+                                </NavLink>
                                 <a href="https://www.linkedin.com/in/abhisingh88">
                                     <i className=" mx-1 fa fa-linkedin-square" style={{ height: "40px", width: "50px" }}></i>
                                 </a>
