@@ -10,13 +10,13 @@ function Resume() {
                 <div className="card-container left-side">
                     <div className="card-content">
                         <h2>July 5 2021 - August 5 2021</h2>
-                        <NavLink download to="files/ridenet.pdf" target="_blank"><p>RideNet Teachnologies LLP</p></NavLink>
+                        <NavLink download to="files/ridenet.pdf" target="_blank"><p>RideNet Technologies LLP</p></NavLink>
                     </div>
                 </div>
                 <div className="card-container right-side">
                     <div className="card-content">
                         <h2>May 21 2021 - August 21 2021</h2>
-                        <NavLink download to="files/ridenet.pdf" target="_blank"><p>Conzure Soft Solutions</p></NavLink>
+                        <NavLink download to="files/ridenet.pdf" target="_blank"><p>Conzura Soft Solutions</p></NavLink>
                     </div>
                 </div>
             </div>
