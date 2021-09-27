@@ -10,7 +10,6 @@ import Sql from './images/sql.jpg';
 import Flask from './images/flask.png';
 import Django from './images/django.png';
 import Node from './images/node.png';
-import { NavLink } from 'react-router-dom'
 import Numpy from './images/numpy.png';
 import Pandas from './images/pandas.png';
 import Scikit from './images/scikit.png';
@@ -42,8 +41,7 @@ function Home() {
                             <p className="py-0">Hello everyone, Glad to meet you</p>
                             <h6>I'm</h6>
                             <h3 className="my-0">Abhishek singh</h3>
-                            <p>I'm intersted in fields like - Application devlopment | ML | Iot | Cyber security | Digital marketing.</p>
-                            <p>Solving real-world problems gives a diffrent kind of satisfaction to me.</p>
+                            <p>I'm intersted in fields like - Application devlopment | ML | Cloud | Iot | Cyber security </p>
                             <p>I like meeting new peoples and taking new challenges and push myself to do something which helps to someone.</p>
                         </div>
                         <div>
@@ -59,9 +57,7 @@ function Home() {
                                 <a href="https://github.com/abhisingh88">
                                     <i className=" mx-1 fa fa-github" style={{ height: "40px", width: "50px" }}></i>
                                 </a>
-                                <NavLink to="">
-                                    <i className=" mx-1 fa fa-instagram" style={{ height: "40px", width: "50px" }}></i>
-                                </NavLink>
+
                                 <a href="https://www.linkedin.com/in/abhisingh88">
                                     <i className=" mx-1 fa fa-linkedin-square" style={{ height: "40px", width: "50px" }}></i>
                                 </a>
@@ -80,7 +76,6 @@ function Home() {
                         <h2>About Myself</h2>
                         <p>I'm 3rd year student of IT Engineering at SIES GST Nerul.</p>
                         <p>I'm always ready to accept new challenges, learning new things and meeting new peoples.</p>
-                        <p>I love to do things which people want to use.</p>
                     </div>
                     <div className="col-5">
                         <h2>Skills</h2>

@@ -70,16 +70,6 @@ function Projects() {
                     <li className="mt-5"><a href="https://github.com/abhisingh88/House-Price-Predictor">House price predictor</a></li>
                     <img src={HousePrice} style={proImg} alt={Alt} />
                 </ul>
-                <hr />
-                <h5>Other Personal Projects</h5>
-                <ul>
-                    <li><a href="https://github.com/abhisingh88/Personal-Projects/tree/main/Tkinter">Notepad</a></li>
-                    <li><a href="https://github.com/abhisingh88/Personal-Projects/tree/main/Jarvis">Jarvis</a></li>
-                    <li><a href="https://github.com/abhisingh88/Personal-Projects/tree/main/Tkinter">Calculator Using Tkinter</a></li>
-                    <li><a href="https://github.com/abhisingh88/Personal-Projects/tree/main/Snake">Snake game</a></li>
-                    <li><a href="https://github.com/abhisingh88/Personal-Projects/tree/main/Flappy%20Bird">Flappy game</a></li>
-                </ul>
-                <hr />
             </div>
         </div>
     )

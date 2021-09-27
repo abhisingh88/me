@@ -13,9 +13,8 @@ function Contact() {
                         <p>SIES Graduate School of Technology</p>
                     </div>
                     <div className="info_item">
-                        <i className="fa fa-phone"></i>
-                        <h6>+91 6388715810</h6>
-                        <p>Mon to Sat 9am to 7pm</p>
+                        <i className="fa fa-envelope-o"></i>
+                        <p>abhishek523240@gmail.com</p>
                     </div>
                 </div>
             </div>
