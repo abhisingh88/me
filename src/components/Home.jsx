@@ -41,7 +41,7 @@ function Home() {
                             <h2 className="py-0">Hello!</h2>
                             <h6>I'm</h6>
                             <h3 className="my-0">Abhishek singh</h3>
-                            <p>I'm 3rd year engineering graduate.</p>
+                            <p>I'm 3rd year engineering student.</p>
                             <p>
                                 Deeply passionate about software development, Cloud, AI & IoT. </p>
                             <p>I strongly believe in team work & learning from peoples.</p>
