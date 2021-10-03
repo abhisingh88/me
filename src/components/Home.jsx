@@ -1,5 +1,5 @@
 import React from 'react'
-import Photo from './images/photo.jpg';
+import Photo from './images/me2.jpg';
 import Android from './images/android.png';
 import Flutter from './images/flutter.png';
 import Css from './images/css.png';
@@ -38,15 +38,13 @@ function Home() {
                 <div className="col-3 my-0 py-0">
                     <div className="col align-self-center">
                         <div className="my_info">
-                            <p className="py-0">Hello everyone, Glad to meet you</p>
+                            <h2 className="py-0">Hello!</h2>
                             <h6>I'm</h6>
                             <h3 className="my-0">Abhishek singh</h3>
-                            <p>I'm intersted in fields like - Application devlopment | ML | Cloud | Iot | Cyber security </p>
-                            <p>I like meeting new peoples and taking new challenges and push myself to do something which helps to someone.</p>
-                        </div>
-                        <div>
-                            <i className=" mx-1 fa fa-envelope"></i>
-                            <p>abhishek523240@gmail.com</p>
+                            <p>I'm 3rd year engineering graduate.</p>
+                            <p>
+                                Deeply passionate about software development, Cloud, AI & IoT. </p>
+                            <p>I strongly believe in team work & learning from peoples.</p>
                         </div>
                         <div>
                             <i className=" mx-1 fa fa-home"></i>
@@ -73,9 +71,11 @@ function Home() {
 
                     </div>
                     <div className="col-6">
-                        <h2>About Myself</h2>
-                        <p>I'm 3rd year student of IT Engineering at SIES GST Nerul.</p>
-                        <p>I'm always ready to accept new challenges, learning new things and meeting new peoples.</p>
+                        <h2>Education</h2>
+                        <i className="fa fa-graduation-cap"></i>
+                        <h5 className="my-2">Bachelor's Degree in Infomation Technology</h5>
+                        <p>SIES Graduate School of Technology</p>
+                        <p className="my-0">2019 - 2023</p>
                     </div>
                     <div className="col-5">
                         <h2>Skills</h2>

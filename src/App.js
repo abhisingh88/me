@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import Home from './components/Home'
 import Projects from './components/Projects'
-// import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -25,9 +24,6 @@ function App() {
           <Route exact path="/me/projects">
             <Projects />
           </Route>
-          {/* <Route exact path="/me/resume">
-            <Resume />
-          </Route> */}
           <Route exact path="/me/experience">
             <Work />
           </Route>
