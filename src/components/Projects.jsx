@@ -13,18 +13,18 @@ function Projects() {
 
     return (
         <div className="container">
-            <div className="container mx-1 my-3">
-                <button className="btn btn-primary mx-1" onClick={() => {
+            <div className="container mx-1 my-3" >
+                <button className="btn btn-primary m-1" onClick={() => {
                     setAppView(!appView)
                     setWebView(false)
                     setMlView(false)
                 }}>App Development Project</button>
-                <button className="btn btn-primary mx-1" onClick={() => {
+                <button className="btn btn-primary m-1" onClick={() => {
                     setAppView(false)
                     setWebView(!webView)
                     setMlView(false)
                 }}>Web Development Project</button>
-                <button className="btn btn-primary mx-1" onClick={() => {
+                <button className="btn btn-primary m-1" onClick={() => {
                     setAppView(false)
                     setWebView(false)
                     setMlView(!mlView)

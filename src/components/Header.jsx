@@ -9,7 +9,7 @@ function Header() {
                     <div className='col-10 mx-auto'>
                         <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
                             <div className="container-fluid">
-                                <NavLink className="navbar-brand" to="/me" style={{ fontFamily: "cursive", fontSize: "22px", width: "100px" }}>Abhishek Singh</NavLink>
+                                <NavLink className="navbar-brand" to="/me" style={{ fontFamily: "cursive", fontSize: "1em", width: "70%" }}>Abhishek Singh</NavLink>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
@@ -25,7 +25,7 @@ function Header() {
                                                 </li>
 
                                                 <li className="nav-item px-3">
-                                                    <NavLink className="nav-link" to="/me/experience">Work Experience</NavLink>
+                                                    <NavLink className="nav-link" to="/me/experience">Experience</NavLink>
                                                 </li>
                                                 <li className="nav-item px-3">
                                                     <NavLink className="nav-link" to="/me/contact">Contact</NavLink>
